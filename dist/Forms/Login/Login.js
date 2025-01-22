@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { useCookies } from "react-cookie";
 import axios from "axios";
 import { useNavigate } from "react-router";
+import "../../index.css";
 const Login = ({
   registerUrl,
   apiUrl,
